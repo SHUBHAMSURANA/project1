@@ -1,4 +1,4 @@
-# Online Banking Portol
+# Online Banking Portal
 Project Implementation Detail:
 
 Backend: PHP 
