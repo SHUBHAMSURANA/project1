@@ -1,0 +1,125 @@
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+body {
+    font-family: Arial;
+    padding: 0px;
+    background-image: url("back1.jpg");
+	background-repeat: no-repeat;
+}
+}
+/* Header/Blog Title */
+.header {
+    padding:10px;
+    text-align: left;
+    background-image: url("header.jpg");
+	background-repeat:repeat;
+	border-bottom: solid;
+	/*max-height:100px;*/
+	
+}
+.container
+{
+	margin-top:50px;
+	float:left;
+	width:20%;
+	
+}
+.button1
+{
+	float:right;
+	color: BLACK;
+	font-weight: bold;
+	margin-right:10px;
+	font-size:20px;
+    text-shadow: 3px 2px YELLOW;
+	
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+th{
+	background-color:white;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:hover {background-color: #f5f5f5;}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: green;
+    color: white;
+}
+li {
+    text-align: center;
+    border: 1px solid #555;
+	list-style-type:none;
+	background-color:white;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.box
+{
+	margin-top:60px;
+}
+ul
+{
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+
+}
+input[type=text] 
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height:20px;
+    border: none;
+    background-color: hsl(120, 60%, 70%);;
+    color: black;
+}
+table {
+    width: 100%;
+	float:right;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+	
+}
+th{
+	background-color:white;
+}
+
+tr:nth-child(even){background-color:GREY}
+
+tr:hover {background-color: #f5f5f5;}
+
+input[type=text] 
+{
+	width:100%;
+}

@@ -1,0 +1,87 @@
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+body {
+    font-family: Arial;
+    padding: 0px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    padding:10px;
+    text-align: left;
+    background-image: url("emoney.jpg");
+	background-repeat:repeat;
+	/*max-height:100px;*/
+	
+}
+.header h1 {
+    font-size: 60px;
+	font-weight: bold;
+	color:white;
+}
+.topnav {
+    overflow: hidden;
+    background-color:#4CAF50;
+	border-bottom:solid;
+}
+.topnav a {
+	font-size:20px;
+	font-weight:bold;
+    float: left;
+    display: block;
+    color:black;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.aboutt
+{
+	margin:40px;
+	padding:30px;
+	border:solid;
+	border-radius:40px;
+	 background: #33b5e5;;
+	
+	
+}
+.aboutt h1
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 3px 2px yellow;
+	text-align:center;
+}
+ul {
+    background:  #33b5e5;
+    padding: 20px;
+}
+ul li {
+    color:white;   
+    margin: 5px;
+	font-weight: bold;
+}

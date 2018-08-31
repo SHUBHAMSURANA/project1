@@ -1,0 +1,65 @@
+body 
+{
+    background-image: url("back1.jpg");
+	background-repeat: no-repeat;
+}
+
+.container
+{
+	margin-left:4%;
+	margin-top:60px;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: ORANGE;
+    color: white;
+}
+li {
+    text-align: center;
+    border: 1px solid #555;
+	list-style-type:none;
+	background-color: white;
+	width:25%;
+}
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.button1
+{
+	float:right;
+	color: BLACK;
+	font-weight: bold;
+	margin-right:10px;
+	font-size:20px;
+    text-shadow: 3px 2px YELLOW;
+	
+}
+table {
+    width: 100%;
+	float:right;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+	
+}
+th{
+	background-color:white;
+}
+
+tr:nth-child(even){background-color:GREY}
+
+tr:hover {background-color: #f5f5f5;}
+
+input[type=text] 
+{
+	width:100%;
+}

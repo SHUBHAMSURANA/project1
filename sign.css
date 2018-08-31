@@ -1,0 +1,50 @@
+.form
+{   
+font-size:20px;
+    font:weight;
+    color:white;
+	width:35%;
+	border:solid;
+	padding:25px;
+	margin-left:35%;
+	margin-top:15px;
+	background-image: url("wall.jpg");
+	
+}
+body
+{
+	background-image: url("photo.png");
+	background-size:100%;
+
+}
+input[type=text] 
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height:20px;
+    border: none;
+    background-color: hsl(120, 60%, 70%);;
+    color: black;
+}
+input[type=password] 
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: hsl(120, 60%, 70%);;
+    color: black;
+	height:20px;
+}
+.button1
+{
+	float:right;
+	color: BLACK;
+	font-weight: bold;
+	margin-right:10px;
+	font-size:20px;
+    text-shadow: 3px 2px YELLOW;
+	
+}

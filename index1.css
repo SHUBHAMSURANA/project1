@@ -1,0 +1,145 @@
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+body {
+    font-family: Arial;
+    padding: 0px;
+     background-image: url("money.jpg");
+	 background-repeat: no-repeat;
+
+}
+
+/* Header/Blog Title */
+.header {
+    padding:10px;
+    text-align: left;
+    background-image: url("emoney.jpg");
+	background-repeat:repeat;
+	/*max-height:100px;*/
+	
+}
+.header h1 {
+    font-size: 60px;
+	font-weight: bold;
+	color:white;
+}
+.topnav {
+    overflow: hidden;
+    background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+	border-bottom:solid;
+}
+.topnav a {
+	font-size:20px;
+	font-weight:bold;
+    float: left;
+    display: block;
+    color:black;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+.login
+{   margin:20px;
+   padding-top:15px;
+    padding-left:30px;
+    width:70%;
+	background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+	border-radius:20px;
+	
+}
+
+.login p
+{   
+    font-size: 25px;
+	font-weight:bold;
+    font-family: "Times New Roman", Times, serif;
+	color: black;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 3px 2px red;
+	
+}
+.login input[type="text"],input[type="password"]
+ {
+	 border:none;
+	 border-bottom:1px solid black;
+	 background:white;
+	 outline:none;
+	 color:black;
+	 font-size:16px;
+	 
+ }
+ .login input[type="submit"]
+ {
+	 border:none;
+	 outline:none;
+	 background:#fb2525;
+	 color:#fff;
+	 font-size:18px;
+	 border-radius:20px;
+	 text-align: center;;
+	 
+ }
+.login input[type="submit"]
+{
+	text-align: center;
+margin-left:35%;
+	
+}
+.about
+{   margin:20px;
+    padding-top:15px;
+    padding-left:30px;	
+	width:70%;
+	background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+	border-radius:20px;
+	color: black;
+	font-weight: bold;
+	
+}
+.footer
+{   
+	border-radius:20px;
+	width:100%;
+	font-weight: bold;
+	background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+	padding-left:75%;
+	
+}
+.vidio
+{
+	margin:20px;
+	float:right;
+	float:right;
+	background-image: url("back1.jpg");
+    background-repeat: no-repeat;
+	border-radius:20px;
+	color: black;
+	font-weight: bold;
+	
+}
