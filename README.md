@@ -30,5 +30,7 @@ Step-3 :Check signcon.php file once.
 Step-4: Run http://localhost/Onlinebanking/index.php
 
 Step-5: Finally The project is infront of you and working is Splited into 2 parts-
+
         a.User Login
+        
         b.Admin 
