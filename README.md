@@ -2,9 +2,13 @@
 Project Implementation Detail:
 
 Backend: PHP 
-Database: MYSQL 
+
+Database: MYSQL
+
 Frontend: HTML, CSS 
+
 Operating system: Windows 
+
 Local server : Xampp 
 
 Build Setup for Windows
