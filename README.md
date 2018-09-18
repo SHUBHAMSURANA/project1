@@ -1,4 +1,7 @@
 # Online Banking Portal
+
+In this project I tried to show the working of a banking account system and cover the basic functionality of a Bank Account Management System. To develop a project for solving financial applications of a customer in banking environment in order to nurture the needs of an end banking user by providing various ways to perform banking tasks.
+
 Project Implementation Detail:
 
 Backend: PHP 
